@@ -72,7 +72,7 @@ fetchISSFlyOverTimes(coords,(error,nextpasses)=>{
   if(error){
     return callback(error,null)
   }
-  return callback(null,nextpasses)
+  return callback(null,passTimes)
 })
 })
 })
